@@ -2,7 +2,7 @@
 <h3> by <%= display_artist(@song) %></h3>
 
 <% if @song.artist == nil %>
-<h1><%= link_to "Add Artist", song_path(@song) %></h1>
+<h1><%= link_to "Add Artist", edit_song_path(@song) %></h1>
 
 <% end %>
 
