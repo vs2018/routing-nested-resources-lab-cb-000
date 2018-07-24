@@ -21,7 +21,7 @@ class SongsController < ApplicationController
   
       
     
-    # @song = Song.find_by(params[:id])
+    @song = Song.find_by(params[:id])
     # @artist = @song.artist
     
     
